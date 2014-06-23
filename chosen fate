@@ -1,0 +1,20 @@
+<html>
+	<head>
+		<title>
+		Bogus Assumptions
+		</title>
+	</head>
+	<body>
+		<p>filler text.
+		</p>
+		<script language="javascript" type="text/javascript">
+			var letternum = 0
+			var lastnum = 0
+			letternum = prompt('There are 26 letters in the alphabet. What letter does your first name start with? Write it as a number:', ' ')
+			lastnum = prompt('what about your last name?:', ' ')
+			var happyfate = (letternum * 1) + (lastnum * 1) + 100
+			var death = (letternum * 1) + 50
+			alert('You will encounter a fortunate event in ' + happyfate + ' months, and will die at ' + death + ' years of age.')
+		</script>
+	</body>
+</html>
